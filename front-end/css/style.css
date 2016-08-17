@@ -1,7 +1,25 @@
 body{
-background-color: lightblue;
+background-color: lightgreen;
+height:500vh;
 }
 
 h1{
     text-align: center;
+    font-size:50px;
+    color:darkblue;
+    border:10px;
+}
+
+.tile {
+  width: 200px;
+  height: auto;
+  background-color: lightblue;
+  margin: 15px;
+  display: inline-block;
+  padding: 10px;
+  font-size:10px;
+}
+
+.tile li {
+  list-style: none;
 }

@@ -44,22 +44,24 @@ function createMembers(){
 
 ////////// DEAL WITH HTML PAGE
 function addMember(member){
-  $("#members").prepend("<ul>" +
-                          "<li>"+member.name+"</li>" +
-                          "<li>"+member.email+"</li>" +
-                          "<li>"+member.school+"</li>" +
-                        "</ul>"); 
-  allMembers.push(member);
+ $("#members").prepend("<div class='tile'><ul>" +
+                         "<li>"+member.name+"</li>" +
+                         "<li>"+member.email+"</li>" +
+                         "<li>"+member.school+"</li>" +
+                       "</ul></div>"); 
+ allMembers.push(member);
 }
 
 function listMemberbyschool(member){
 
-  $("#members").prepend("<ul>" +
-                          "<li>"+member.name+"</li>" +
-                          "<li>"+member.email+"</li>" +
-                          "<li>"+member.school+"</li>" +
-                        "</ul>"); 
+ $("#members").prepend("<div class='tile'><ul>" +
+                           "<li>"+member.name+"</li>" +
+                           "<li>"+member.email+"</li>" +
+                           "<li>"+member.school+"</li>" +
+                         "</ul></div>"); 
 }
+
+
 
 function getmemberbyschool(school) {
   $("#members").empty();
