@@ -1,7 +1,7 @@
-# Pelicanconnect
-Educational Database
 
 # ***Pelicanconnect***. 
+
+Educational Database
 
 The brief to build a database on members associated with one or many schools.
 The fields requested being "Name", "Email address" and "School". Secondly I should display all members for a selected School.
