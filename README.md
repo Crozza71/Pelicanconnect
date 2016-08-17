@@ -1,4 +1,3 @@
-
 # ***Pelicanconnect***. 
 
 The brief to build a database on members associated with one or many schools.
@@ -11,6 +10,7 @@ In the console:
 -  Then cd Pelicanconnect
 -  cd api
 -  npm install
+-  type in the command node db/seeds , this will give you the data    
 -  node on a localhost server , I have been using 3000
 -  open new tab Command +t  
 -  cd front-end  
