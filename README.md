@@ -4,12 +4,26 @@
 The brief to build a database on members associated with one or many schools.
 The fields requested being "Name", "Email address" and "School". Secondly I should display all members for a selected School.
 
+How To run locally:
+
+In the console:
+-  git clone https://github.com/Crozza71/Pelicanconnect.git
+-  Then cd Pelicanconnect
+-  cd api
+-  npm install
+-  node on a localhost server , I have been using 3000
+-  open new tab Command +t  
+-  cd front-end  
+-  Then python localhost server, I have been using 8000
+-  Command +t again and run the line for Mongoose serve. mongod
+
 How it works?
+
 On opening the website, the full list of members is displayed.
 
-I used node.js on localhost:3000 to enter my data into the database and can be found when opening the api in Sublime while running a Mongoose server.
+I used node.js on localhost:3000 to enter my data into the database and can be found when opening the Api in Sublime while running a Mongoose server.
 
-On the front end in Sublime I have run a python server on localhost:8000.
+On the front end in Sublime I have run a Python server on localhost:8000.
 
 ![MacDown Screenshot](http://i.imgur.com/7OtEnBG.png)
 This is the page of total data you should see on opening.
@@ -26,7 +40,7 @@ I used Node.js as a server and ran Mongoose with it for my back end. On the fron
 
 In CSS I have tiled the individual cards for ease of reading.
 
-If I were to have more time I would try to build this in Angular to be used as a single page website instead of having to continually refresh the page.
+If I were to have more time I would try to build this in Angular to be used as a single page website.
 
 I would also have portfolio pictures and an about page about the Schools and possibly a profile picture of the individual.
 
