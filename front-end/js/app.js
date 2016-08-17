@@ -65,7 +65,6 @@ function listMemberbyschool(member){
 
 function getmemberbyschool(school) {
   $("#members").empty();
-  console.log(allMembers[0].school);
   for (var i = 0; i < allMembers.length; i++) {
     if (allMembers[i].school === school) {
       listMemberbyschool(allMembers[i])
